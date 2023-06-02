@@ -1,19 +1,3 @@
-<p align="center"><img src="https://s3.amazonaws.com/deta-assets/logo_large_white.png" width="256" /></p>
-
-<div align="center">
-  <a href="https://circleci.com/gh/detaprotocol/workflows/liquidator/tree/master" style="text-decoration:none;">
-    <img src="https://img.shields.io/circleci/project/github/detaprotocol/liquidator.svg" alt='CI' />
-  </a>
-  <a href='https://hub.docker.com/r/detaprotocol/liquidator' style="text-decoration:none;">
-    <img src='https://img.shields.io/badge/docker-container-blue.svg?longCache=true' alt='Docker' />
-  </a>
-  <a href='https://coveralls.io/github/detaprotocol/liquidator' style="text-decoration:none;">
-    <img src='https://coveralls.io/repos/github/detaprotocol/liquidator/badge.svg?t=toKMwT' alt='Coverage Status' />
-  </a>
-  <a href='https://github.com/detaprotocol/solo/blob/master/LICENSE' style="text-decoration:none;">
-    <img src='https://img.shields.io/github/license/detaprotocol/protocol.svg?longCache=true' alt='License' />
-  </a>
-</div>
 
 # DEPRECATED [deta Liquidator]
 
