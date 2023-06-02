@@ -1,6 +1,6 @@
 import { DateTime } from 'luxon';
-import { BigNumber } from '@dydxprotocol/solo';
-import { AccountOperation } from '@dydxprotocol/solo/dist/src/modules/operate/AccountOperation';
+import { BigNumber } from '@detaprotocol/solo';
+import { AccountOperation } from '@detaprotocol/solo/dist/src/modules/operate/AccountOperation';
 import SoloLiquidator from '../src/lib/solo-liquidator';
 import AccountStore from '../src/lib/account-store';
 import MarketStore from '../src/lib/market-store';
@@ -8,7 +8,7 @@ import LiquidationStore from '../src/lib/liquidation-store';
 import * as blockHelper from '../src/helpers/block-helper';
 import { solo } from '../src/helpers/web3';
 
-jest.mock('@dydxprotocol/solo/dist/src/modules/operate/AccountOperation');
+jest.mock('@detaprotocol/solo/dist/src/modules/operate/AccountOperation');
 jest.mock('../src/helpers/block-helper');
 
 describe('solo-liquidator', () => {

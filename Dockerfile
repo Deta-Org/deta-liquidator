@@ -1,11 +1,11 @@
-FROM dydxprotocol/node:10.16.3-alpine
+FROM detaprotocol/node:10.16.3-alpine
 
-RUN adduser -S dydx
-RUN mkdir -p /home/dydx/app
-RUN chown dydx -R /home/dydx/app
-USER dydx
+RUN adduser -S deta
+RUN mkdir -p /home/deta/app
+RUN chown deta -R /home/deta/app
+USER deta
 
-WORKDIR /home/dydx/app
+WORKDIR /home/deta/app
 
 COPY ./.env* ./
 COPY ./package.json ./package-lock.json ./

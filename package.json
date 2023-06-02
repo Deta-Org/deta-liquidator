@@ -1,7 +1,7 @@
 {
   "name": "liquidator",
   "version": "3.0.0",
-  "description": "Microservice to bid on dYdX closing auctions",
+  "description": "Microservice to bid on deta closing auctions",
   "main": "build/src/index.js",
   "scripts": {
     "test": "NODE_ENV=test jest --runInBand",
@@ -15,16 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dydxprotocol/liquidator.git"
+    "url": "git+https://github.com/detaprotocol/liquidator.git"
   },
-  "author": "dYdX Trading Inc.",
+  "author": "deta Trading Inc.",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/dydxprotocol/liquidator/issues"
+    "url": "https://github.com/detaprotocol/liquidator/issues"
   },
-  "homepage": "https://github.com/dydxprotocol/liquidator#readme",
+  "homepage": "https://github.com/detaprotocol/liquidator#readme",
   "dependencies": {
-    "@dydxprotocol/solo": "^0.38.2",
+    "@detaprotocol/solo": "^0.38.2",
     "dotenv-flow": "^0.4.0",
     "lodash": "^4.17.15",
     "lru-cache": "^5.1.1",

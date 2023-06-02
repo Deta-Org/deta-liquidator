@@ -1,8 +1,8 @@
-import { ApiAccount } from '@dydxprotocol/solo';
+import { ApiAccount } from '@detaprotocol/solo';
 import {
   getLiquidatableSoloAccounts,
   getExpiredAccounts,
-} from '../clients/dydx';
+} from '../clients/deta';
 import { delay } from './delay';
 import Logger from './logger';
 

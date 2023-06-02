@@ -1,5 +1,5 @@
-import { BigNumber } from '@dydxprotocol/solo';
-import { ConfirmationType } from '@dydxprotocol/solo/dist/src/types';
+import { BigNumber } from '@detaprotocol/solo';
+import { ConfirmationType } from '@detaprotocol/solo/dist/src/types';
 import { DateTime } from 'luxon';
 import { solo } from './web3';
 import { getLatestBlockTimestamp } from './block-helper';

@@ -1,5 +1,5 @@
-import { ApiMarket } from '@dydxprotocol/solo';
-import { getSoloMarkets } from '../clients/dydx';
+import { ApiMarket } from '@detaprotocol/solo';
+import { getSoloMarkets } from '../clients/deta';
 import { delay } from './delay';
 import Logger from './logger';
 

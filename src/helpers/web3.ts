@@ -1,4 +1,4 @@
-import { Web3, Solo } from '@dydxprotocol/solo';
+import { Web3, Solo } from '@detaprotocol/solo';
 import Logger from '../lib/logger';
 
 const WALLET_ADDRESS = process.env.WALLET_ADDRESS.toLowerCase();
